@@ -46,3 +46,7 @@ INSERT INTO Vendas (utilizador_id, produto_id, quantidade) VALUES
 -- CONSULTA DE VALIDAÇÃO (Mostrar os resultados)
 -- ============================================================
 SELECT * FROM Vendas;
+
+-- restricao para o email
+ALTER TABLE Utilizadores
+ADD CONSTRAINT email_valido CHECK (email LIKE '%@%.%');
