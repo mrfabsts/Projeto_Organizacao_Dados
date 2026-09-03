@@ -11,3 +11,5 @@ clientes, vendas e stocks."
 • "Onde estão as passwords?": (Aqui, o engenheiro deixa um link para
 o cofre seguro onde as passwords estão, NUNCA as escreve no
 README).
+
+Reflecao e update da Hora 36: O "Engenheiro de Estratégia" – O Liderar do Amanhã
