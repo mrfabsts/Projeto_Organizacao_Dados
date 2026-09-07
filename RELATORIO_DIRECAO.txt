@@ -1,0 +1,9 @@
+1. Mitigação de Risco: "A nossa base de dados está alojada na nuvem com
+cópias de segurança automáticas e capacidade de recuperação
+instantânea."
+
+2. Ganho de Tempo:"O painel mostra visualmente o estado de saúde do sistema.
+Se o indicador estiver verde/Active, as operações estão a decorrer a 100%."
+3. Autonomia e Legado: "Toda a estrutura está documentada no SQL Editor. Qualquer
+colaborador autorizado pode consultar a documentação e operar o sistema
+sem dependências."
