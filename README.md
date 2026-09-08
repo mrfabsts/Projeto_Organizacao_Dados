@@ -12,4 +12,6 @@ clientes, vendas e stocks."
 o cofre seguro onde as passwords estão, NUNCA as escreve no
 README).
 
-Reflecao e update da Hora 36: O "Engenheiro de Estratégia" – O Liderar do Amanhã
+Reflecao e update da Hora 36: O "Engenheiro de Estratégia" – O Liderar do Amanhã.
+
+reflete a consolidação dos procedimentos de monitorização e resiliência cloud.
