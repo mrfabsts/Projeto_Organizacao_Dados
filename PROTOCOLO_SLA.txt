@@ -1,0 +1,8 @@
+Protocolo de Comunicação e Gestão de Incidências (SLA)
+Perante uma eventual interrupção de serviço, a postura operacional deve priorizar
+a transparência técnica e a execução dos protocolos estabelecidos:
+Guião de Comunicação com a Gestão:
+"Detetámos uma indisponibilidade temporária na ligação ao endpoint PostgreSQL
+na nuvem. O protocolo de recuperação já foi iniciado através do painel de controlo
+Neon (alternância de Branch / Restauro PITR). Prevemos o restabelecimento total
+em X minutos, sem perda de integridade dos dados registados."
