@@ -1,0 +1,26 @@
+Calendário Operacional de Gestão Cloud
+• Segunda-Feira (09:00 - 09:10) — Diagnóstico de Arranque:
+o Validar se o Compute Endpoint no Neon Console transitou do estado
+Idle para Active sem erros.
+o Executar a consulta de verificação de conexões ativas e bloqueios no
+SQL Editor:
+
+SELECT pid, usename, state, query, age(clock_timestamp(), query_start)
+FROM pg_stat_activity
+WHERE state != 'idle';
+• Sexta-Feira (17:00 - 17:15) — Auditoria de Salvaguarda:
+o Confirmar a existência de snapshots automáticos gerados pela
+plataforma.
+o Gerar uma cópia lógica externa via terminal (pg_dump) para
+repositório secundário.
+o Reportar à Direção o relatório de disponibilidade e estabilidade do
+serviço.
+
+• 1a Segunda-Feira do Mês — Manutenção Preventiva:
+o Correr a reorganização de armazenamento e atualização do
+otimizador de consultas:
+
+VACUUM ANALYZE;
+
+o Limpar registos obsoletos e verificar a quota de disco consumida na
+consola Neon.
