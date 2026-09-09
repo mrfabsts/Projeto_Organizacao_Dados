@@ -15,3 +15,7 @@ README).
 Reflecao e update da Hora 36: O "Engenheiro de Estratégia" – O Liderar do Amanhã.
 
 reflete a consolidação dos procedimentos de monitorização e resiliência cloud.
+reflete a consolidação global da
+infraestrutura Cloud no Neon PostgreSQL, descrevendo o protocolo
+do "Teste de Férias", a gestão de perfis (RBAC) e o mapa de
+salvaguarda/PITR.
